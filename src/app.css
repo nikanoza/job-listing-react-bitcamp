@@ -1,0 +1,195 @@
+.main {
+  width: 100%;
+  background-image: url(./assets/bg-header-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 156px;
+  padding: 0 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filters {
+  width: 100%;
+  padding: 20px 40px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  margin-top: 120px;
+}
+
+.choice-btns {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.clear-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.12px;
+  border: none;
+  background: transparent;
+  color: #5ca5a5;
+}
+
+.jobs {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.job {
+  width: 100%;
+  padding: 32px 40px;
+  background: #ffffff;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-left {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.info-header,
+.info-footer {
+  display: flex;
+  align-items: center;
+}
+
+.company-title {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  color: #5ca5a5;
+}
+
+.new-job {
+  background: #5ca5a5;
+  border-radius: 12px;
+  padding: 7px 8px 3px 8px;
+  color: white;
+  margin-left: 15px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.107692px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.featured-job {
+  background: #2b3939;
+  border-radius: 12px;
+  padding: 7px 8px 3px 8px;
+  color: white;
+  margin-left: 8px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.107692px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.job-position {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: #2b3939;
+  margin-top: 10px;
+}
+
+.info-footer {
+  column-gap: 18.5px;
+  margin-top: 8px;
+}
+
+.extra {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.138462px;
+  color: #7c8f8f;
+}
+
+.circle {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #b7c4c4;
+}
+
+.job-right {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.prop-btn {
+  padding: 0 8px;
+  height: 32px;
+  background: rgba(92, 165, 165, 0.1);
+  border-radius: 4px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.123077px;
+  color: #5ca5a5;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  background: rgba(92, 165, 165, 0.1);
+  border-radius: 4px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.123077px;
+  color: #5ca5a5;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-btn h3 {
+  padding: 0 11px 0 8px;
+}
+
+.remove-icon-box {
+  background: #5ca5a5;
+  height: 100%;
+  padding: 0 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
